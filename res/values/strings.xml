@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Mode</string>
+    <string name="title_frustrated_detail">Frustrated Detail</string>
+    <string name="strIntroduction">This is a 17, rue Voltaire application, best wishes to them!</string>
+	<color name="corBackgroud">#FFFACD</color>
+	<color name="corSideBar">#FFF8DC</color>
+	
+</resources>

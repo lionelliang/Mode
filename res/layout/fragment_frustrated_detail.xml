@@ -1,0 +1,27 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+	android:layout_weight="1" 
+	android:padding="20dp" >  
+
+	<TextView
+	    android:id="@+id/frustrated_detail"
+	    style="?android:attr/textAppearanceLarge"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="16dp"
+	    android:textIsSelectable="false"
+	    android:text="@string/strIntroduction"
+	    tools:context=".FrustratedDetailFragment" />
+
+	<ImageView
+	    android:id="@+id/frustrated_image"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/app_name" />
+ 
+</LinearLayout> 
